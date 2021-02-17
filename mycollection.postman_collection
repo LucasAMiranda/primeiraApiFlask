@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "e0c220bd-7fac-4f8d-b4f7-afefe2b42989",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Testapp_Flask",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/Maria",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"Maria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Testapp_Flask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/lucas",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"lucas"
+					]
+				},
+				"description": "fazendo testes da minha primeira app em flask"
+			},
+			"response": []
+		},
+		{
+			"name": "primeira_api",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"valores\" : [10, 10, 10,  40, 50]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/soma",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"soma"
+					]
+				},
+				"description": "testando api"
+			},
+			"response": []
+		}
+	]
+}
